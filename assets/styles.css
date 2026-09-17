@@ -6,7 +6,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    /* padding-top: 100px; */
     height: 100vh;
 }
 
@@ -19,7 +18,7 @@ h2 {
     margin-bottom: 8px;
 }
 
-a {
+.navbar a {
     margin: 10px;
     padding: 10px;
     display: inline-block;
@@ -35,7 +34,7 @@ a {
     transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
-a:hover {
+.navbar a:hover {
     background-color: #4CAF50; 
     color: white;
 }
@@ -66,4 +65,22 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.sources img {
+    max-width: 50%;
+    max-height: 50%;
+    
+    cursor: pointer;
+}
+
+.sources img.enlarged {
+    transform: scale(1.5);
+    position: fixed;
+    z-index: 999;
+
+    inset: 0;
+    margin: auto;
+    
+    box-shadow: 0 0 0 999px rgba(0, 0, 0, 0.5);
 }
