@@ -19,8 +19,9 @@ h2 {
 }
 
 a {
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
+    display: inline-block;
 
     border-radius: 4px;
     border: 1px solid #dee2e6;
@@ -40,6 +41,7 @@ a:hover {
 
 p {
     font-family: 'Times New Roman', Times, serif;
+    margin: 3.5px;
 }
 
 .section {
